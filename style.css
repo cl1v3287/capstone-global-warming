@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+
+body{
+    font-family: "Big Shoulders Display", sans-serif;
+    display: block;
+    margin: 20px;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div>img{
+    width: 23%;
+    height: 23%;
+    flex-direction: row;
+}
+
+#heading-holder{
+    display: flex;
+    justify-content: space-around;
+    border: 6.75px #9A7B4F double;
+    background-color: #0494C2;
+}
+
+nav{
+    display: flex;
+    border: 6.75px #9A7B4F double;
+    justify-content: space-evenly;
+    width: 70px;
+    padding: 15px;
+    flex-direction: column;
+}
+
+#menu{
+    width: 85px;
+    height: 85px;
+}
+
+nav>div{
+    border:  1px cornflowerblue dashed;
+}
+
+#what{
+    display: flex;
+    justify-content: center;
+}
+
+#what-para{
+    border: 5px sienna dotted;
+    padding: 10px;
+}
+
+a{
+    color: rgb(76, 0, 255);
+    justify-content: center;
+    display: flex;
+    text-decoration: dotted sienna;
+}
